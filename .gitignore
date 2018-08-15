@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# tempCodeRunnerFile
+tempCodeRunnerFile
+
+# Ignore non cpp files in codes
+codes/*
+!codes/*.cpp
