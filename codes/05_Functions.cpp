@@ -12,11 +12,22 @@ void print_hello_world() {
   cout << "Hello world" << endl;
 }
 
+void print_star_tree(int n) {
+  for (int i=0; i < n;i++) {
+    for (int j=0; j <= i; j++) {
+      cout << '*';
+    }
+    cout << endl;
+  }
+}
+
 int main() {
   int x = get_add(1, 2);  // 선언한 함수는 다음과 같이 사용이 가능합니다.
   cout << x << endl;
 
   print_hello_world();
+
+  print_star_tree(6);
 
   return 0;
 }
